@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Fauna Fascinante | Mis Animales Favoritos</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&amp;display=swap">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" tabindex="0">
+    <nav class="navbar navbar-expand-lg sticky-top bg-dark shadow-sm navbar-dark" id="mainNavbar">
+        <div class="container"><a class="navbar-brand fw-bold d-flex align-items-center" href="#"><svg class="bi bi-compass-fill fs-4 text-warning me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.503 7.503 0 0 1 5.538 7.24m-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"></path>
+                </svg> Fauna Fascinante </a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-lg-center ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#especies">Especies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#comparativa">Comparativa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#curiosidades">Curiosidades</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="inicio">
+        <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+            <div class="carousel-indicators"><button class="active" type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0"></button><button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button><button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button></div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image:url('https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&amp;fit=crop&amp;w=1600&amp;q=80');">
+                    <div class="d-block carousel-caption"><span class="badge text-dark bg-warning mb-2">Lealtad Incondicional</span>
+                        <h1 class="display-5 fw-bold">Golden Retriever</h1>
+                        <p class="lead">Inteligencia, nobleza y energía en el mejor compañero del hogar.</p><a class="btn btn-outline-light mt-2" role="button" href="#especies">Explorar especies</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url('https://images.unsplash.com/photo-1508817628294-5a453fa0b8fb?auto=format&amp;fit=crop&amp;w=1600&amp;q=80');">
+                    <div class="d-block carousel-caption"><span class="badge bg-danger mb-2">Fuerza y Sigilo</span>
+                        <h1 class="display-5 fw-bold">El Tigre</h1>
+                        <p class="lead">El felino más grande del mundo y símbolo de majestuosidad salvaje.</p><a class="btn btn-outline-light mt-2" role="button" href="#especies">Descubrir más</a>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-image:url('https://images.unsplash.com/photo-1580019542155-247062e19ce4?auto=format&amp;fit=crop&amp;w=1600&amp;q=80');">
+                    <div class="d-block carousel-caption"><span class="badge text-dark bg-info mb-2">Acróbatas del Océano</span>
+                        <h1 class="display-5 fw-bold">Leones Marinos</h1>
+                        <p class="lead">Agilidad, inteligencia social y carisma en las costas del Pacífico.</p><a class="btn btn-outline-light mt-2" role="button" href="#especies">Conocer hábitat</a>
+                    </div>
+                </div>
+            </div><button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button><button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+        </div>
+    </header>
+    <div class="container mt-4">
+        <div class="alert alert-info shadow-sm d-flex align-items-center alert-dismissible fade show" role="alert"><svg class="bi bi-info-circle-fill fs-4 me-3" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"></path>
+            </svg>
+            <div><strong>¡Bienvenido a mi proyecto web!</strong><span> Este sitio fue desarrollado con </span><strong>Bootstrap 5</strong><span> para presentar mis tres especies animales favoritas y sus características principales. </span></div><button class="btn-close" type="button" data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+    <section id="especies" class="section-padding">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Mis Tres Animales Favoritos</h2>
+                <p class="text-muted">Tres hábitats distintos: el hogar, la selva y el océano.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 animal-card"><img class="card-img-top w-100 d-block" src="https://images.unsplash.com/photo-1633722715463-d30f4f325e24?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Golden Retriever">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge text-dark bg-warning">Canino Doméstico</span><small class="text-muted"><svg class="bi bi-geo-alt-fill" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"></path>
+                                    </svg> Escocia</small></div>
+                            <h5 class="fw-bold card-title">Golden Retriever</h5>
+                            <p class="text-secondary card-text">Famosos por su pelaje dorado, carácter amigable y extraordinaria facilidad para el adiestramiento y asistencia.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3"><button class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#modalGolden"><svg class="bi bi-plus-circle me-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
+                                </svg> Ver Ficha Técnica </button></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 animal-card"><img class="card-img-top w-100 d-block" src="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&amp;fit=crop&amp;w=800&amp;q=80" alt="Tigre">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge bg-danger">Felino Salvaje</span><small class="text-muted"><svg class="bi bi-geo-alt-fill" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"></path>
+                                    </svg> Asia</small></div>
+                            <h5 class="fw-bold card-title">Tigre (Panthera tigris)</h5>
+                            <p class="text-secondary card-text">Depredador ápice con un patrón de rayas único en cada individuo, como una huella dactilar humana.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3"><button class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#modalTigre"><svg class="bi bi-plus-circle me-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
+                                </svg> Ver Ficha Técnica </button></div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow-sm h-100 animal-card"><img class="card-img-top w-100 d-block" src="assets/img/pexels-kosta-smith-2766837-4308623.jpg" alt="León Marino">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2"><span class="badge text-dark bg-info">Mamífero Marino</span><small class="text-muted"><svg class="bi bi-geo-alt-fill" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"></path>
+                                    </svg> Costas del Pacífico</small></div>
+                            <h5 class="fw-bold card-title">León Marino</h5>
+                            <p class="text-secondary card-text">Pinnípedos ágiles capaces de caminar en tierra gracias a sus aletas rotatorias y nadar a gran velocidad.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 pb-3"><button class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#modalLeon"><svg class="bi bi-plus-circle me-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>
+                                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>
+                                </svg> Ver Ficha Técnica </button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-light section-padding" id="comparativa">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Análisis Comparativo</h2>
+                <p class="text-muted">Explora sus datos biológicos y capacidades físicas.</p>
+            </div>
+            <ul class="nav nav-pills justify-content-center mb-4" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation"><button class="active nav-link" id="pills-tabla-tab" data-bs-toggle="pill" data-bs-target="#pills-tabla" type="button"><svg class="bi bi-table me-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 2h-4v3h4zm0 4h-4v3h4zm0 4h-4v3h3a1 1 0 0 0 1-1zm-5 3v-3H6v3zm-5 0v-3H1v2a1 1 0 0 0 1 1zm-4-4h4V8H1zm0-4h4V4H1zm5-3v3h4V4zm4 4H6v3h4z"></path>
+                        </svg> Tabla de Datos </button></li>
+                <li class="nav-item" role="presentation"><button class="nav-link" id="pills-habilidades-tab" data-bs-toggle="pill" data-bs-target="#pills-habilidades" type="button"><svg class="bi bi-bar-chart-fill me-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"></path>
+                        </svg> Habilidades Físicas </button></li>
+            </ul>
+            <div class="tab-content bg-white rounded-4 shadow-sm p-4" id="pills-tabContent">
+                <div class="tab-pane fade show active" role="tabpanel" id="pills-tabla">
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle mb-0">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Especie</th>
+                                    <th>Peso Promedio</th>
+                                    <th>Esperanza de Vida</th>
+                                    <th>Velocidad Máxima</th>
+                                    <th>Estado de Conservación</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fw-semibold">Golden Retriever</td>
+                                    <td>25 – 34 kg</td>
+                                    <td>10 – 12 años</td>
+                                    <td>45 km/h (en tierra)</td>
+                                    <td><span class="badge bg-success">Doméstico / Estable</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-semibold">Tigre</td>
+                                    <td>90 – 310 kg</td>
+                                    <td>10 – 15 años</td>
+                                    <td>65 km/h (en tierra)</td>
+                                    <td><span class="badge bg-danger">En Peligro</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-semibold">León Marino</td>
+                                    <td>100 – 350 kg</td>
+                                    <td>20 – 30 años</td>
+                                    <td>40 km/h (en agua)</td>
+                                    <td><span class="badge bg-primary">Preocupación Menor</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" role="tabpanel" id="pills-habilidades">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <h5 class="fw-bold text-warning">Golden Retriever</h5><label class="small fw-semibold">Sociabilidad e Inteligencia</label>
+                            <div class="progress mb-3" style="height:20px;">
+                                <div class="progress-bar bg-warning text-dark fw-bold" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:98%;">50%</div>
+                            </div><label class="small fw-semibold">Destreza Acuática</label>
+                            <div class="progress" style="height:20px;">
+                                <div class="progress-bar bg-warning text-dark fw-bold" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:85%;">50%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="fw-bold text-danger">Tigre</h5><label class="small fw-semibold">Fuerza y Potencia</label>
+                            <div class="progress mb-3" style="height:20px;">
+                                <div class="progress-bar bg-danger fw-bold" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:99%;">50%</div>
+                            </div><label class="small fw-semibold">Sigilo y Camuflaje</label>
+                            <div class="progress" style="height:20px;">
+                                <div class="progress-bar bg-danger fw-bold" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:95%;">50%</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="fw-bold text-info">León Marino</h5><label class="small fw-semibold">Agilidad Submarina</label>
+                            <div class="progress mb-3" style="height:20px;">
+                                <div class="progress-bar bg-info text-dark fw-bold" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:97%;">50%</div>
+                            </div><label class="small fw-semibold">Capacidad de Apnea</label>
+                            <div class="progress" style="height:20px;">
+                                <div class="progress-bar bg-info text-dark fw-bold" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:90%;">50%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="curiosidades" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5"><span class="badge bg-dark mb-2">¿Sabías qué?</span>
+                    <h2 class="fw-bold mb-3">Datos Curiosos que los Hacen Únicos</h2>
+                    <p class="text-muted">Cada una de estas especies posee adaptaciones evolutivas fascinantes que explican por qué destacan en su entorno natural.</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="accordion shadow-sm" role="tablist" id="accordionCuriosidades">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="accordionCuriosidades .item-1"><svg class="bi bi-award-fill text-warning me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864z"></path>
+                                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1z"></path>
+                                    </svg> ¿Por qué los Golden Retriever tienen "boca suave"? </button></h2>
+                            <div class="accordion-collapse collapse show item-1" role="tabpanel" data-bs-parent="#accordionCuriosidades" id="collapseOne">
+                                <div class="accordion-body text-secondary"><span> Fueron criados originalmente en Escocia para cobrar aves acuáticas sin dañarlas. Su mordida es tan delicada que muchos pueden sostener un huevo crudo en la boca sin romperlo. </span></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="accordionCuriosidades .item-2"><svg class="bi bi-shield-fill text-danger me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56"></path>
+                                    </svg> A diferencia de otros felinos, los tigres aman el agua </button></h2>
+                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordionCuriosidades" id="collapseTwo">
+                                <div class="accordion-body text-secondary"><span> Son excelentes nadadores capaces de cruzar ríos de hasta 7 kilómetros de ancho para refrescarse o cazar presas en el agua. </span></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="accordionCuriosidades .item-3"><svg class="bi bi-water text-info me-2" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M.036 3.314a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 3.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 6.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0L.314 9.964a.5.5 0 0 1-.278-.65zm0 3a.5.5 0 0 1 .65-.278l1.757.703a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.014-.406a2.5 2.5 0 0 1 1.857 0l1.015.406a1.5 1.5 0 0 0 1.114 0l1.757-.703a.5.5 0 1 1 .372.928l-1.758.703a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.014-.406a1.5 1.5 0 0 0-1.114 0l-1.015.406a2.5 2.5 0 0 1-1.857 0l-1.757-.703a.5.5 0 0 1-.278-.65z"></path>
+                                    </svg> ¿Cómo diferenciar un león marino de una foca? </button></h2>
+                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordionCuriosidades" id="collapseThree">
+                                <div class="accordion-body text-secondary"><span> Los leones marinos tienen pabellones auditivos externos (orejas visibles) y pueden girar sus aletas traseras hacia adelante para caminar sobre las rocas, mientras que las focas reptan sobre su vientre. </span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-white bg-dark mt-5 py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="fw-semibold mb-0">Fauna Fascinante © 2026</p><small class="text-secondary">Proyecto Final III Parcial — Desarrollado por el papi chulo del Osvaldo de 102</small>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0"><a class="btn btn-outline-light btn-sm" role="button" href="#inicio"><svg class="bi bi-arrow-up" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"></path>
+                        </svg> Volver arriba </a></div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modalGolden">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h5 class="modal-title fw-bold">Ficha: Golden Retriever</h5><button class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Origen:</strong><span> Tierras Altas de Escocia (Siglo XIX)</span></li>
+                        <li class="list-group-item"><strong>Temperamento:</strong><span> Amigable, confiable y seguro</span></li>
+                        <li class="list-group-item"><strong>Pelaje:</strong><span> Doble capa resistente al agua</span></li>
+                        <li class="list-group-item"><strong>Rol destacado:</strong><span> Perro guía, terapia y rescate</span></li>
+                    </ul>
+                </div>
+                <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Cerrar</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modalTigre">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-white bg-danger">
+                    <h5 class="modal-title fw-bold">Ficha: Tigre</h5><button class="btn-close btn-close-white" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Nombre científico:</strong><em>Panthera tigris</em></li>
+                        <li class="list-group-item"><strong>Hábitat:</strong><span> Selvas tropicales, bosques y manglares</span></li>
+                        <li class="list-group-item"><strong>Subespecies destacadas:</strong><span> Bengala y Siberiano</span></li>
+                        <li class="list-group-item"><strong>Dato clave:</strong><span> Su rugido puede escucharse a 3 km</span></li>
+                    </ul>
+                </div>
+                <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Cerrar</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modalLeon">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info">
+                    <h5 class="modal-title fw-bold">Ficha: León Marino</h5><button class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Familia:</strong><span> Otariidae (Pinnípedos con orejas)</span></li>
+                        <li class="list-group-item"><strong>Dieta:</strong><span> Peces, calamares y pulpos</span></li>
+                        <li class="list-group-item"><strong>Inmersión:</strong><span> Pueden sumergirse hasta 270 metros</span></li>
+                        <li class="list-group-item"><strong>Comportamiento:</strong><span> Muy sociales, viven en grandes colonias</span></li>
+                    </ul>
+                </div>
+                <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Cerrar</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="newsletterModal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Recibe datos curiosos semanales</h5><button class="btn-close" data-bs-dismiss="modal" type="button"></button>
+                </div>
+                <form>
+                    <div class="modal-body">
+                        <div class="mb-3"><label class="form-label">Nombre</label><input class="form-control" type="text" placeholder="Tu nombre" required=""></div>
+                        <div class="mb-3"><label class="form-label">Correo electrónico</label><input class="form-control" type="email" placeholder="nombre@ejemplo.com" required=""></div>
+                        <div class="mb-3"><label class="form-label">¿Cuál es tu favorito?</label><select class="form-select">
+                                <option value="">Golden Retriever</option>
+                                <option value="">Tigre</option>
+                                <option value="">León Marino</option>
+                            </select></div>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal" type="button">Cancelar</button><button class="btn btn-warning fw-semibold" type="submit">Suscribirme</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
